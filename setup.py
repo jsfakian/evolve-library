@@ -2,13 +2,13 @@
 
 from setuptools import setup
 
-setup(name='py-evolve',
+setup(name='evolve',
       version='1.3',
       description='Python library to submit workflows in evolve infrastructure',
       url='https://sunlight.io/',
       author='Sunlight.io',
       license='GPL',
-      packages=['py_evolve'],
+      packages=['.'],
       install_requires=['requests>=2.23'],
       classifiers=['Development Status :: 4 - Beta',
                    'Environment :: Console',
